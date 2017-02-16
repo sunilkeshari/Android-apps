@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">FileList</string>
+    <string-array name="test">
+        <item>val1</item>
+        <item>val2</item>
+        <item>val3</item>
+    </string-array>
+</resources>

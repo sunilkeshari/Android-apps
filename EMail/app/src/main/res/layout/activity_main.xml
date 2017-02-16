@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+   android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="email.sunil.com.email.MainActivity">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="To"
+    android:textColor="#FFFFFF"
+    android:textColorHint="@color/colorAccent"
+    android:textSize="20sp"
+    android:id="@+id/to"/>
+ <EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/subject"
+     android:textColor="#FFFFFF"
+     android:hint="Subject"
+     android:textColorHint="@color/colorAccent"
+     android:textSize="20sp"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Message"
+       android:textColor="#FFFFFF"
+       android:textColorHint="@color/colorAccent"
+       android:id="@+id/message"
+       android:textSize="20sp"
+       />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/attach"
+        android:textColor="@color/colorAccent"
+        android:text="Attach File"
+
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/send"
+        android:text="Send"
+        android:textSize="20sp"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/jmail"
+       android:text="Java Mail API"
+       android:textSize="20sp"
+       android:textColor="@color/colorAccent"/>
+</LinearLayout>

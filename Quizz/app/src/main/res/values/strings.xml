@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Quizz</string>
+    <string-array name="cricket_question">
+        <item>Which team has played most number of Cricket Test Matches?</item>
+        <item>Where did Sourav Ganguly debue ?</item>
+        <item>Which is the biggest cricket ground of the world ?</item>
+        <item> Who was the Player of the Series in the Australia-India series that finished in January, after scoring hundreds in the last three Tests?</item>
+        <item>Who reached 100 in only 31 balls, the fastest century in all one-day internationals, in a match in January?</item>
+        <item>Who scored the first century of the 2015 World Cup, against England?</item>
+        <item>Which England bowler took a hat-trick in the World Cup?</item>
+        <item>With whom did Chris Gayle share a record stand of 372 against Zimbabwe in the World Cup?</item>
+        <item>Who top-scored in the World Cup final?</item>
+        <item>Where was the first Test match played with a pink ball, in November 2015?</item>
+
+
+    </string-array>
+    <string-array name="cric_options">
+        <item>India</item>
+        <item>England</item>
+        <item>West Indies</item>
+        <item>South Africa</item>
+        <item>Eden Gardens</item>
+        <item>Lords</item>
+        <item>Sydney</item>
+        <item>Trentbridge</item>
+        <item>Melbourne</item>
+        <item>Eden Gardens</item>
+        <item>Johannesberg</item>
+        <item>Sydney</item>
+        <item>Virat Kohli</item>
+        <item>Steve Smith</item>
+        <item>Lokesh Rahul</item>
+        <item>David Warner</item>
+        <item>AB de Villiers</item>
+        <item>Chris Gayle</item>
+        <item>Corey Anderson</item>
+        <item>Jos Buttler</item>
+        <item>Aaron Finch</item>
+        <item>Martin Guptill</item>
+        <item>Chris Gayle</item>
+        <item>David Warner</item>
+        <item>James Anderson</item>
+        <item>Stuart Broad</item>
+        <item>Chris Woakes</item>
+        <item>Steven Finn</item>
+        <item>Andre Russell</item>
+        <item>Marlon Samuels</item>
+        <item>Lendl Simmons</item>
+        <item>Dwayne Smith</item>
+        <item>Steven Smith</item>
+        <item>Ross Taylor</item>
+        <item>Michael Clarke</item>
+        <item>Grant Elliott</item>
+        <item>Adelaide</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Perth</item>
+
+
+    </string-array>
+
+    <string-array name="cric_ans">
+        <item>England</item>
+        <item>Lords</item>
+        <item>Melbourne Cricket Ground</item>
+        <item>Steve Smith</item>
+        <item>AB de Villiers</item>
+        <item>Aaron Finch</item>
+        <item>Steven Finn</item>
+        <item>Marlon Samuels</item>
+        <item>Grant Elliott</item>
+        <item>Adelaide</item>
+    </string-array>
+
+    <string-array name="politics_question">
+        <item>When did Sachin Tendulkar debue ?</item>
+        <item>Where did Sourav Ganguly debue ?</item>
+        <item>Which is the biggest cricket ground of the world ?</item>
+    </string-array>
+
+    <string-array name="politics_options">
+        <item>1987</item>
+        <item>1989</item>
+        <item>1988</item>
+        <item>1991</item>
+        <item>Eden Gardens</item>
+        <item>Lords</item>
+        <item>Sydney</item>
+        <item>Trentbridge</item>
+        <item>Melbourne</item>
+        <item>Eden Gardens</item>
+        <item>Johannesberg</item>
+        <item>Sydney</item>
+    </string-array>
+
+    <string-array name="politics_ans">
+        <item>1989</item>
+        <item>Lords</item>
+        <item>Melbourne Cricket Ground</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+    <AutoCompleteTextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:id="@+id/url"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:hint="Enter URL"/>
+     <Button
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:layout_weight="0.2"
+         android:id="@+id/search"
+         android:text="Search"
+         android:textSize="10sp"
+         android:onClick="process"
+         />
+
+    </LinearLayout>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:layout_gravity="center"
+        android:id="@+id/pgbar"/>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:id="@+id/web"></WebView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/facebook"
+            android:onClick="process"
+            android:text="Facebook"
+            android:textSize="10sp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/google"
+            android:onClick="process"
+            android:text="Google"
+            android:textSize="10sp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/youtube"
+            android:onClick="process"
+            android:text="Youtube"
+            android:textSize="10sp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/html"
+            android:onClick="process"
+            android:text="HTML"
+            android:textSize="10sp"/>
+    </LinearLayout>
+
+</LinearLayout>

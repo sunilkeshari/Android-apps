@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:src="@drawable/back"
+            android:onClick="close"
+            android:gravity="left"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:src="@drawable/menu"
+            android:onClick="choose"
+            android:padding="15dp"
+            android:layout_marginLeft="250dp"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:src="@drawable/musicplayer"/>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/seekbar"
+        android:layout_weight="0.1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:layout_margin="5dp"
+            android:background="@drawable/previous"
+            android:id="@+id/previous"
+            android:onClick="previous"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:layout_margin="5dp"
+            android:background="@drawable/play"
+            android:id="@+id/play"
+            android:onClick="play"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:layout_margin="5dp"
+            android:background="@drawable/pause"
+            android:id="@+id/pause"
+            android:onClick="pause"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:layout_margin="5dp"
+            android:background="@drawable/stop"
+            android:id="@+id/stop"
+            android:onClick="stop"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:layout_margin="5dp"
+            android:background="@drawable/skip"
+            android:id="@+id/forward"
+            android:onClick="forward"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="developed by @sunilkeshari"
+        android:textSize="20sp"
+        android:textColor="#FFBD6AF1"/>
+
+</LinearLayout>
