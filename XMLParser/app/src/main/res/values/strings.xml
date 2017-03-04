@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">XMLParser</string>
+    <string-array name="countries">
+        <item>India</item>
+        <item>China</item>
+        <item>Russia</item>
+        <item>Pakistan</item>
+        <item>Nepal</item>
+        <item>France</item>
+    </string-array>
+</resources>
